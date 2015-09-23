@@ -5,7 +5,7 @@ var gQuery = require('libs/gquery/dist/gquery.min.js'),
     TimelineLite = require('libs/TimelineLite.js'),
     CSSPlugin = require('libs/CSSPlugin.js'),
     easePack = require('libs/EasePack.js');
-//You can use $('.class').selector or $('#id').selector selectors for
+//You can use $('.class').selector or $('#id').selector for
 //jQuery-like workflow. $.each(selector, callback), $.css({Object}),
 //$.on(eventType, callback). Greensock TweenLite and TimelineLite
 //are also included.

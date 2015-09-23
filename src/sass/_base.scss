@@ -33,3 +33,23 @@ body {
     color: $textColor;
     background-color: $bodyBackground;
 }
+
+.ad {
+    position: relative;
+    border: 1px solid $borderColor;
+}
+
+.mbu {
+    width: 300px;
+    height: 250px;
+}
+
+.skyscraper {
+    width: 160px;
+    height: 600px;
+}
+
+.leaderboard {
+    width: 728px;
+    height: 90px;
+}

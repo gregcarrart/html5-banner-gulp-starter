@@ -9,19 +9,13 @@ $baseUrl: env_or_default("STATIC_URL", "/static/");
 // Colors
 // -------------------------
 $white:                     #fff !default;
-$black:                     #444 !default;
+$black:                     #000 !default;
+$grey:                      #ccc !default;
 
 // Scaffolding
 // -------------------------
 $bodyBackground:            $white !default;
 $textColor:                 $black !default;
-$hrBorder:                  $black !default;
-
-// Links
-// -------------------------
-$linkColor:                 #08c !default;
-$linkColorHover:            darken($linkColor, 10%) !default;
-
 
 // Typography
 // -------------------------
@@ -46,7 +40,7 @@ $headingsColor:             inherit !default;
 
 // Borders
 // -------------------------
-$borderColor:               $black !default;
+$borderColor:               $grey !default;
 
 // Buttons
 // -------------------------

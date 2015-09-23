@@ -1,0 +1,3 @@
+[submodule "src/javascript/libs/gquery"]
+	path = src/javascript/libs/gquery
+	url = https://github.com/gregcarrart/gquery

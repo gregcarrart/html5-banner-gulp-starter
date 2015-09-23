@@ -1,2 +1,2 @@
 //Main JS file
-var gQuery = require('libs/gquery.min.js');
+var gQuery = require('libs/gquery/dist/gquery.min.js');

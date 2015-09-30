@@ -84,7 +84,7 @@ window.onload = function () {
     anim.assign();
     anim.begin();
 
-    if (!UTIL.isMobile()) {
+    if (!UTIL.environment.isMobile()) {
         // Desktop-specific events
     } else {
         // Mobile Specific Events

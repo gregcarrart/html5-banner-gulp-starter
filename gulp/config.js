@@ -27,7 +27,7 @@ module.exports = {
     },
     sass: {
         src: src + '/sass/**/*.{sass,scss}',
-        dest: dest + '/css',
+        dest: dest,
         settings: {
             // Required if you want to use SASS syntax
             // See https://github.com/dlmanning/gulp-sass/issues/81
@@ -37,7 +37,7 @@ module.exports = {
     },
     images: {
         src: src + '/images/**',
-        dest: dest + '/images'
+        dest: dest
     },
     staticAssets: {
         src: src + '/static-assets/**',
@@ -53,7 +53,7 @@ module.exports = {
         src: src,
         bundleConfigs: [{
             entries: src + '/javascript/main.js',
-            dest: dest + '/js',
+            dest: dest,
             outputName: 'main.js',
             // Additional file extentions to make optional
             extensions: ['.coffee', '.js', '.hbs'],
@@ -62,8 +62,8 @@ module.exports = {
         }]
     },
     production: {
-        cssSrc: dest + '/css/*.css',
-        jsSrc: dest + '/js/*.js',
+        cssSrc: dest + '/styles.css',
+        jsSrc: dest + '/main.js',
         dest: dest
     },
     settings: settings

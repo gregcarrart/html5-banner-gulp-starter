@@ -55,6 +55,9 @@ var Animations = (function () {
 
         var main = new TimelineLite();
         // Frame # 1 -------------------------------------------------------------------------
+        // main animation goes here, cuz
+        
+
 
         // Create timeline
         timeline.add(main);

@@ -7,31 +7,46 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ad.size" content="width=300,height=250">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="/css/styles.css">
+    <script>
+        // // UNCOMMENT IF AD BUILDER
+        // window.dealerName = 'Dealer Name';
+        var clickTag = 'http://www.google.com';
+    </script>
 
 </head>
 
 <body>
     <!-- Start by adding banner class type: mbu (300x250), skyscraper (160x600),
-    or leaderboard (728x90)-->
+    large-skyscraper (300x600) or leaderboard (728x90)-->
 
-    <div class="ad mbu">
-        <div class="scene" id="scene-1">
-            <div id="element-1"></div>
-            <div id="element-2"></div>
-        </div>
-        <div class="scene" id="scene-2">
-            <div id="element-3"></div>
-            <div id="element-4"></div>
+    <div class="ad skyscraper">
+        <div class="intro">
+            <div class="scene" id="scene-1">
+                <div class="element" id="element-1"></div>
+                <div class="element" id="element-2"></div>
+            </div>
+            <div class="scene" id="scene-2">
+                <div class="element" id="element-3"></div>
+                <div class="element" id="element-4"></div>
+            </div>
         </div>
         <div class="scene" id="endframe">
-            <div id="logo"></div>
-            <div id="cta"></div>
+            <div class="element" id="logo"></div>
+            <div class="element" id="cta"></div>
         </div>
+        <div id="clicktag"></div>
     </div>
 
-    <script src="/js/main.js"></script>
+    <script src="index.js"></script>
+    <script>
+        $('#clicktag').on('click', function() {
+            window.open(window.clickTag, '_blank');
+        });
+    </script>
 
 </body>
 

@@ -40,7 +40,7 @@ body {
     overflow: hidden;
     cursor: pointer;
 
-    .frame {
+    .scene {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -51,10 +51,14 @@ body {
         }
     }
 }
-
 .mbu {
     width: 300px;
     height: 250px;
+}
+
+.large-mbu {
+    width: 336px;
+    height: 280px;
 }
 
 .skyscraper {
@@ -62,7 +66,19 @@ body {
     height: 600px;
 }
 
+.large-skyscraper {
+    width: 300px;
+    height: 600px;
+}
+
 .leaderboard {
     width: 728px;
     height: 90px;
+}
+
+#clicktag {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
 }

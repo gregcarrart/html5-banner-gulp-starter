@@ -81,7 +81,7 @@ var Animations = (function () {
         // create a home for our animations
         // example: timeline complete parameters:
         // timeline = new TimelineLite( {onComplete:this.onFinish, onCompleteParams:["test1", "test2"], onCompleteScope:this } );
-        timeline = new TimelineLite();
+        timeline = new TimelineLite({onComplete:this.onFinish, onCompleteScope:this});
 
         var main = new TimelineLite();
         // Frame # 1 -------------------------------------------------------------------------

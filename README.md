@@ -19,6 +19,13 @@ $ npm install
 #### Add gQuery:
 
 ```sh
+$ cd html5-banner-gulp-starter/src/javascript/libs
+$ git submodule add https://github.com/gregcarrart/gquery.git
+```
+
+#### Update gQuery:
+
+```sh
 $ git submodule init
 $ git submodule update
 ```

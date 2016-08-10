@@ -263,7 +263,7 @@ UTIL.cta = function(selector, options) {
     } else if (style == 'left') {
         html = '<div class="element" id="cta-container" style="width: '+w+'px; height: '+h+'px; bottom: 0; left: -'+(w+10)+'px;">'+
                     '<svg id="cta-border" viewBox="0 0 '+w+' '+h+'">'+
-                        '<polygon id="cta-polygon" fill="none" style="fill: '+color+';" points="0,'+h+' 0,0 '+w+',0 '+(w-(angle*h))+','+h+'">'+
+                        '<polygon id="cta-polygon" fill="none" style="fill: '+color+';" points="0,'+h+' 0,0 '+w+',0 '+(w-(angleRatio*h))+','+h+'">'+
                     '</svg>'+
                     '<div class="element" id="cta-txt" style="background: url(cta-txt.svg) no-repeat; background-size: '+textW+'px '+textH+'px; left: 50%; top: 50%; width: '+textW+'px; height: '+textH+'px; margin-left:'+(-1*textW/2)+'px; margin-top: '+(-1*textH/2)+'px;"></div>'+
                 '</div>';
@@ -292,7 +292,7 @@ UTIL.cta = function(selector, options) {
     } else if (style == 'right') {
         html = '<div class="element" id="cta-container" style="width: '+w+'px; height: '+h+'px; bottom: 0; right: -'+(w+10)+'px;">'+
                     '<svg id="cta-border" viewBox="0 0 '+w+' '+h+'">'+
-                        '<polygon id="cta-polygon" fill="none" style="fill: '+color+';" points="0,'+h+' '+(angle*h)+',0 '+w+',0 '+w+','+h+'">'+
+                        '<polygon id="cta-polygon" fill="none" style="fill: '+color+';" points="0,'+h+' '+(angleRatio*h)+',0 '+w+',0 '+w+','+h+'">'+
                     '</svg>'+
                     '<div class="element" id="cta-txt" style="background: url(cta-txt.svg) no-repeat; background-size: '+textW+'px '+textH+'px; left: 50%; top: 50%; width: '+textW+'px; height: '+textH+'px; margin-left:'+(-1*textW/2)+'px; margin-top: '+(-1*textH/2)+'px;"></div>'+
                 '</div>';
